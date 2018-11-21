@@ -1,0 +1,38 @@
+@charset "utf-8";
+*{
+    box-sizing:border-box;
+}
+html,body,div,h1,h2,h3,h4,h5,h6,ul,li,i,input,button,span,p,img,a{
+    margin:0;
+    padding:0;
+}
+html,body,#app{
+    width:100%;
+    height:100%;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+i{
+    font-style:normal;
+}
+img{
+    font-size:0;
+}
+button{
+    outline:none;
+    border:none;
+}
+.page{
+    width:100%;
+    position: absolute;
+    top:44px;
+    bottom:49px;
+}
+ .slideInRight, .slideOutRight{
+    animation-duration: 200ms;
+}
